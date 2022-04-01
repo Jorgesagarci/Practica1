@@ -1,7 +1,7 @@
 public class Persona {
    private String nombre;
    private int edad;
-    private String poblacion
+    private String poblacion;
 
    public Persona(String nombre,int edad, String poblacion){
       this.nombre = nombre;
@@ -27,6 +27,16 @@ public class Persona {
    
    public int getEdad(){
       return edad;
+   }
+
+   public setpoblacion(){
+   this.persona=persona;
+   }
+
+   public void getpoblacion(){
+    return poblacion;
+
+
    }
 
 }//fin Persona
